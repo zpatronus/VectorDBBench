@@ -1,0 +1,21 @@
+README.md
+  s_95e02cc4ec5597::t_56f3af0e8d4821 463
+pyproject.toml
+  s_95e02cc4ec5597::t_f32e6901c5fad1 90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "18c13da04a531d5d06f57e78e85289cec2783f25",
+  "prompts": {},
+  "sessions": {
+    "s_95e02cc4ec5597": {
+      "agent_id": {
+        "tool": "qoder",
+        "id": "a80a345e-579f-4ff3-8334-13f2ca9bd40c",
+        "model": "ultimate"
+      },
+      "human_author": "Zijun Yang <zijun.yang@outlook.com>"
+    }
+  }
+}
