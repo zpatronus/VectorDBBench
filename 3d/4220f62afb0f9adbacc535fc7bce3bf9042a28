@@ -1,0 +1,19 @@
+README.md
+  s_91c6f5c0e4ab50::t_df9f98199c74c2 502-508
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "3d4220f62afb0f9adbacc535fc7bce3bf9042a28",
+  "prompts": {},
+  "sessions": {
+    "s_91c6f5c0e4ab50": {
+      "agent_id": {
+        "tool": "qoder",
+        "id": "4cc5a0d1-e9b2-456e-ac58-79c3934e3431",
+        "model": "cmodel"
+      },
+      "human_author": "Zijun Yang <zijun.yang@outlook.com>"
+    }
+  }
+}
