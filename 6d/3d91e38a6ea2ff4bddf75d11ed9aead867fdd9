@@ -1,0 +1,21 @@
+vectordb_bench/backend/clients/hologres/config.py
+  s_91c6f5c0e4ab50::t_3936162f95ce07 35
+vectordb_bench/backend/clients/hologres/cli.py
+  s_91c6f5c0e4ab50::t_533958691ffd5f 40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "6d3d91e38a6ea2ff4bddf75d11ed9aead867fdd9",
+  "prompts": {},
+  "sessions": {
+    "s_91c6f5c0e4ab50": {
+      "agent_id": {
+        "tool": "qoder",
+        "id": "4cc5a0d1-e9b2-456e-ac58-79c3934e3431",
+        "model": "cmodel"
+      },
+      "human_author": "Zijun Yang <zijun.yang@outlook.com>"
+    }
+  }
+}
