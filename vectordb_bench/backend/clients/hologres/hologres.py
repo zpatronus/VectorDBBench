@@ -297,7 +297,10 @@ class Hologres(VectorDB):
 
     def _full_compact(self):
         cursor = self._get_cursor()
-        log.info(f"{self.name} client full compact table : {self.table_name}")
+        log.info(
+            f"{self.name} client full compact table : {self.table_name}, "
+            f"max_file_size_mb={self.case_config.full_compact_max_file_size_mb}"
+        )
         cursor.execute(
             sql.SQL("""
                 SELECT hologres.hg_full_compact_table(
@@ -331,6 +334,7 @@ class Hologres(VectorDB):
         )
 
         log.info(f"{self.name} client create index on table : {self.table_name}, with sql: {sql_index.as_string()}")
+        log.info(f"{self.name} builder_params: {json.dumps(self.case_config.builder_params())}")
         try:
             cursor.execute(sql_index)
             conn.commit()
