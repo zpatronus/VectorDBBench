@@ -1,0 +1,62 @@
+vectordb_bench/backend/clients/hologres/config.py
+  s_95e02cc4ec5597::t_7d7cfbd4123949 35,37,52-53,55,114,116,118,121,131-138
+  s_95e02cc4ec5597::t_27fc4f494a13fa 70
+  s_95e02cc4ec5597::t_689d8adccd69f3 38-40
+  s_2efc208f7319b5::t_02afcd8fb94ab2 54
+  s_95e02cc4ec5597::t_c9fbf01bee9b52 41
+  s_91c6f5c0e4ab50::t_77c34056d67314 43-45
+  s_91c6f5c0e4ab50::t_e8801270c7e5e6 46
+  s_91c6f5c0e4ab50::t_5031cc33e7fecd 130
+  s_91c6f5c0e4ab50::t_b6b712c3a54200 128-129
+vectordb_bench/backend/clients/hologres/cli.py
+  s_95e02cc4ec5597::t_c08005a3417ac7 30
+  s_91c6f5c0e4ab50::t_a4ccb0b90b655f 45-56
+  s_91c6f5c0e4ab50::t_fdfcf0eb55484d 57
+  s_2efc208f7319b5::t_83313ef6803f9a 64,93
+  s_95e02cc4ec5597::t_5b40d1a42c3245 92,94-95
+  s_95e02cc4ec5597::t_10bcc9a47bb0ac 24-29,31-44,58-63,65-68
+vectordb_bench/backend/clients/hologres/hologres.py
+  s_91c6f5c0e4ab50::t_2d19598984df57 300-303,337,339
+  s_91c6f5c0e4ab50::t_de99159aae4abc 338
+README.md
+  s_95e02cc4ec5597::t_0009711b23d42f 494-498,500-502,509-511
+  s_91c6f5c0e4ab50::t_df9f98199c74c2 503-507
+  s_95e02cc4ec5597::t_56f3af0e8d4821 463
+  s_91c6f5c0e4ab50::t_43e0c68bb12515 508
+  s_2efc208f7319b5::t_f69eceffca515c 512
+  s_95e02cc4ec5597::t_498542ba3bd5be 499
+pyproject.toml
+  s_95e02cc4ec5597::t_f32e6901c5fad1 90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "5d7d37a3150ff93d14b494f1d5c27e6f542de7e8",
+  "prompts": {},
+  "sessions": {
+    "s_2efc208f7319b5": {
+      "agent_id": {
+        "tool": "qoder",
+        "id": "79cbc34a-4878-47f9-8c01-18e5c9d3109f",
+        "model": "unknown"
+      },
+      "human_author": "Zijun Yang <zijun.yang@outlook.com>"
+    },
+    "s_91c6f5c0e4ab50": {
+      "agent_id": {
+        "tool": "qoder",
+        "id": "4cc5a0d1-e9b2-456e-ac58-79c3934e3431",
+        "model": "ultimate"
+      },
+      "human_author": "Zijun Yang <zijun.yang@outlook.com>"
+    },
+    "s_95e02cc4ec5597": {
+      "agent_id": {
+        "tool": "qoder",
+        "id": "a80a345e-579f-4ff3-8334-13f2ca9bd40c",
+        "model": "ultimate"
+      },
+      "human_author": "Zijun Yang <zijun.yang@outlook.com>"
+    }
+  }
+}
