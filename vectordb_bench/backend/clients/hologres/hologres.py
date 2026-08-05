@@ -263,6 +263,7 @@ class Hologres(VectorDB):
 
     def optimize(self, data_size: int | None = None):
         if self.case_config.create_index_after_load:
+            self._full_compact()
             self._create_index()
         self._full_compact()
         self._analyze()
